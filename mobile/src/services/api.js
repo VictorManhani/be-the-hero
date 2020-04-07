@@ -1,7 +1,7 @@
 import axios from 'axios';
 
 const api = axios.create({
-    baseURL: 'http://192.168.15.16:3333'
+    baseURL: 'http://10.0.2.2:3333', //Funciona com o emulador Android no Windows
 });
 
 export default api;
